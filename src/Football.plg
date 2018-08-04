@@ -1,0 +1,233 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Football - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Kevin\LOCALS~1\Temp\RSP47.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "header" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Football.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Game Source\New Football\Source\Ball.cpp"
+"C:\Game Source\New Football\Source\DepthChart.cpp"
+"C:\Game Source\New Football\Source\Football.cpp"
+"C:\Game Source\New Football\Source\Formation.cpp"
+"C:\Game Source\New Football\Source\GameInfo.cpp"
+"C:\Game Source\New Football\Source\Play.cpp"
+"C:\Game Source\New Football\Source\Playbook.cpp"
+"C:\Game Source\New Football\Source\PlayerInfo.cpp"
+"C:\Game Source\New Football\Source\PlayerObj.cpp"
+"C:\Game Source\New Football\PlayerObj_Actions.cpp"
+"C:\Game Source\New Football\PlayerObj_States.cpp"
+"C:\Game Source\New Football\Source\Roster.cpp"
+"C:\Game Source\New Football\Source\Side.cpp"
+"C:\Game Source\New Football\Source\Team.cpp"
+"C:\Game Source\New Football\Source\WinMain.cpp"
+"C:\Game Source\New Football\Source\TouchdownStage.cpp"
+"C:\Game Source\New Football\Source\TitleScreenStage.cpp"
+"C:\Game Source\New Football\Source\SelectGameModeStage.cpp"
+"C:\Game Source\New Football\Source\SelectTeamStage.cpp"
+"C:\Game Source\New Football\Source\CoinTossStage.cpp"
+"C:\Game Source\New Football\Source\SelectPlayStage.cpp"
+"C:\Game Source\New Football\PlayStage.cpp"
+"C:\Game Source\New Football\Source\FirstDownStage.cpp"
+"C:\Game Source\New Football\Source\TurnOverStage.cpp"
+"C:\Game Source\New Football\Source\CheckTimeStage.cpp"
+"C:\Game Source\New Football\Source\HalfTimeStage.cpp"
+"C:\Game Source\New Football\Source\EndGameStage.cpp"
+"C:\Game Source\New Football\Source\BeginGameStage.cpp"
+"C:\Game Source\New Football\Source\SelectInputStage.cpp"
+"C:\Game Source\New Football\Gamelib Source\Actions.cpp"
+"C:\Game Source\New Football\Gamelib Source\DirMusicMgr.cpp"
+"C:\Game Source\New Football\Gamelib Source\DisplayList.cpp"
+"C:\Game Source\New Football\Gamelib Source\Game.cpp"
+"C:\Game Source\New Football\Gamelib Source\GameFile.cpp"
+"C:\Game Source\New Football\Gamelib Source\GameTimer.cpp"
+"C:\Game Source\New Football\Gamelib Source\Input.cpp"
+"C:\Game Source\New Football\Gamelib Source\Map.cpp"
+"C:\Game Source\New Football\Gamelib Source\MessageMgr.cpp"
+"C:\Game Source\New Football\Gamelib Source\Midi.cpp"
+"C:\Game Source\New Football\Gamelib Source\Objects.cpp"
+"C:\Game Source\New Football\Gamelib Source\Screen.cpp"
+"C:\Game Source\New Football\Gamelib Source\Sprite.cpp"
+"C:\Game Source\New Football\Gamelib Source\String.cpp"
+"C:\Game Source\New Football\Gamelib Source\Surface.cpp"
+"C:\Game Source\New Football\Gamelib Source\SurfacePixelFormat.cpp"
+"C:\Game Source\New Football\Gamelib Source\VPad.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Kevin\LOCALS~1\Temp\RSP47.tmp" 
+Creating temporary file "C:\DOCUME~1\Kevin\LOCALS~1\Temp\RSP48.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ddraw.lib dinput.lib dsound.lib dxguid.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Football.pdb" /debug /machine:I386 /out:"Debug/Football.exe" /pdbtype:sept 
+".\Debug\Ball.obj"
+".\Debug\DepthChart.obj"
+".\Debug\Football.obj"
+".\Debug\Formation.obj"
+".\Debug\GameInfo.obj"
+".\Debug\MathUtils.obj"
+".\Debug\Play.obj"
+".\Debug\Playbook.obj"
+".\Debug\PlayerInfo.obj"
+".\Debug\PlayerObj.obj"
+".\Debug\PlayerObj_Actions.obj"
+".\Debug\PlayerObj_States.obj"
+".\Debug\Roster.obj"
+".\Debug\Side.obj"
+".\Debug\StrUtils.obj"
+".\Debug\Team.obj"
+".\Debug\WinMain.obj"
+".\Debug\TouchdownStage.obj"
+".\Debug\TitleScreenStage.obj"
+".\Debug\SelectGameModeStage.obj"
+".\Debug\SelectTeamStage.obj"
+".\Debug\CoinTossStage.obj"
+".\Debug\SelectPlayStage.obj"
+".\Debug\PlayStage.obj"
+".\Debug\FirstDownStage.obj"
+".\Debug\TurnOverStage.obj"
+".\Debug\CheckTimeStage.obj"
+".\Debug\HalfTimeStage.obj"
+".\Debug\EndGameStage.obj"
+".\Debug\BeginGameStage.obj"
+".\Debug\SelectInputStage.obj"
+".\Debug\Actions.obj"
+".\Debug\DirMusicMgr.obj"
+".\Debug\DisplayList.obj"
+".\Debug\Game.obj"
+".\Debug\GameFile.obj"
+".\Debug\GameTimer.obj"
+".\Debug\Input.obj"
+".\Debug\Map.obj"
+".\Debug\MessageMgr.obj"
+".\Debug\Midi.obj"
+".\Debug\Objects.obj"
+".\Debug\Screen.obj"
+".\Debug\Sprite.obj"
+".\Debug\String.obj"
+".\Debug\Surface.obj"
+".\Debug\SurfacePixelFormat.obj"
+".\Debug\VPad.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\Kevin\LOCALS~1\Temp\RSP48.tmp"
+<h3>Output Window</h3>
+Compiling...
+Ball.cpp
+DepthChart.cpp
+Football.cpp
+Formation.cpp
+GameInfo.cpp
+Play.cpp
+Playbook.cpp
+PlayerInfo.cpp
+PlayerObj.cpp
+c:\game source\new football\source\playerobj.cpp(29) : warning C4305: '=' : truncation from 'const double' to 'float'
+PlayerObj_Actions.cpp
+PlayerObj_States.cpp
+C:\Game Source\New Football\PlayerObj_States.cpp(114) : warning C4305: '*=' : truncation from 'const double' to 'float'
+C:\Game Source\New Football\PlayerObj_States.cpp(115) : warning C4305: '*=' : truncation from 'const double' to 'float'
+C:\Game Source\New Football\PlayerObj_States.cpp(266) : warning C4305: '*=' : truncation from 'const double' to 'float'
+C:\Game Source\New Football\PlayerObj_States.cpp(267) : warning C4305: '*=' : truncation from 'const double' to 'float'
+C:\Game Source\New Football\PlayerObj_States.cpp(377) : warning C4305: '*=' : truncation from 'const double' to 'float'
+C:\Game Source\New Football\PlayerObj_States.cpp(378) : warning C4305: '*=' : truncation from 'const double' to 'float'
+C:\Game Source\New Football\PlayerObj_States.cpp(700) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Game Source\New Football\PlayerObj_States.cpp(701) : warning C4305: '=' : truncation from 'const double' to 'float'
+Roster.cpp
+Side.cpp
+Team.cpp
+WinMain.cpp
+TouchdownStage.cpp
+TitleScreenStage.cpp
+SelectGameModeStage.cpp
+SelectTeamStage.cpp
+CoinTossStage.cpp
+SelectPlayStage.cpp
+PlayStage.cpp
+c:\game source\new football\playstage.cpp(842) : warning C4101: 'TeamNameAndScore' : unreferenced local variable
+FirstDownStage.cpp
+TurnOverStage.cpp
+CheckTimeStage.cpp
+HalfTimeStage.cpp
+EndGameStage.cpp
+BeginGameStage.cpp
+SelectInputStage.cpp
+Actions.cpp
+DirMusicMgr.cpp
+DisplayList.cpp
+Game.cpp
+GameFile.cpp
+GameTimer.cpp
+Input.cpp
+Map.cpp
+MessageMgr.cpp
+Midi.cpp
+Objects.cpp
+Screen.cpp
+Sprite.cpp
+String.cpp
+Surface.cpp
+SurfacePixelFormat.cpp
+VPad.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\Kevin\LOCALS~1\Temp\RSP4A.tmp" with contents
+[
+/nologo /o"Debug/Football.bsc" 
+".\Debug\Ball.sbr"
+".\Debug\DepthChart.sbr"
+".\Debug\Football.sbr"
+".\Debug\Formation.sbr"
+".\Debug\GameInfo.sbr"
+".\Debug\MathUtils.sbr"
+".\Debug\Play.sbr"
+".\Debug\Playbook.sbr"
+".\Debug\PlayerInfo.sbr"
+".\Debug\PlayerObj.sbr"
+".\Debug\PlayerObj_Actions.sbr"
+".\Debug\PlayerObj_States.sbr"
+".\Debug\Roster.sbr"
+".\Debug\Side.sbr"
+".\Debug\StrUtils.sbr"
+".\Debug\Team.sbr"
+".\Debug\WinMain.sbr"
+".\Debug\TouchdownStage.sbr"
+".\Debug\TitleScreenStage.sbr"
+".\Debug\SelectGameModeStage.sbr"
+".\Debug\SelectTeamStage.sbr"
+".\Debug\CoinTossStage.sbr"
+".\Debug\SelectPlayStage.sbr"
+".\Debug\PlayStage.sbr"
+".\Debug\FirstDownStage.sbr"
+".\Debug\TurnOverStage.sbr"
+".\Debug\CheckTimeStage.sbr"
+".\Debug\HalfTimeStage.sbr"
+".\Debug\EndGameStage.sbr"
+".\Debug\BeginGameStage.sbr"
+".\Debug\SelectInputStage.sbr"
+".\Debug\Actions.sbr"
+".\Debug\DirMusicMgr.sbr"
+".\Debug\DisplayList.sbr"
+".\Debug\Game.sbr"
+".\Debug\GameFile.sbr"
+".\Debug\GameTimer.sbr"
+".\Debug\Input.sbr"
+".\Debug\Map.sbr"
+".\Debug\MessageMgr.sbr"
+".\Debug\Midi.sbr"
+".\Debug\Objects.sbr"
+".\Debug\Screen.sbr"
+".\Debug\Sprite.sbr"
+".\Debug\String.sbr"
+".\Debug\Surface.sbr"
+".\Debug\SurfacePixelFormat.sbr"
+".\Debug\VPad.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\Kevin\LOCALS~1\Temp\RSP4A.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Football.exe - 0 error(s), 10 warning(s)
+</pre>
+</body>
+</html>

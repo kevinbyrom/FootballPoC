@@ -1,0 +1,56 @@
+//Number of formations
+4
+
+
+// Formation 1
+4-3
+
+
+// Number of plays in Formation 1
+1
+
+
+// Formation 1 plays
+4-3 Man                                                                                                                                                                                                                                   
+
+
+
+
+// Formation 2
+3-4
+
+
+// Number of plays in Formation 2
+1
+
+
+// Formation 2 plays
+emptyplay
+
+
+
+
+// Formation 3
+Nickel
+
+
+// Number of plays in Formation 3
+1
+
+
+// Formation 3 plays
+emptyplay
+
+
+
+
+// Formation 4
+Dime
+
+
+// Number of plays in Formation 4
+1
+
+
+// Formation 4 plays
+emptyplay

@@ -1,0 +1,97 @@
+// DEPTH_QB	= 0;
+// DEPTH_WR	= 1;
+// DEPTH_TE	= 2;
+// DEPTH_HB	= 3;
+// DEPTH_FB	= 4;
+// DEPTH_OL	= 5;
+// DEPTH_C	= 6;
+// DEPTH_CB	= 7;
+// DEPTH_SS	= 8;
+// DEPTH_FS	= 9;
+// DEPTH_LB	= 10;
+// DEPTH_DL	= 11;
+// DEPTH_K	= 12;
+// DEPTH_P	= 13;
+// DEPTH_KR	= 14;
+// DEPTH_PR	= 15;
+// DEPTH_PH	= 16;
+
+
+// First and Last Name
+
+Troy
+Mason
+
+
+// Age, position, number, skincolor
+
+23
+1
+6
+0
+
+
+
+// Awareness (val, exp, nextlvl, totalexp)
+
+100.0, 0, 0, 0
+
+
+// Strength (val, exp, nextlvl, totalexp)
+
+100.0, 0, 0, 0
+
+
+// ThrowPow (val, exp, nextlvl, totalexp)
+
+100.0, 0, 0, 0
+
+
+// ThrowAcc (val, exp, nextlvl, totalexp)
+
+100.0, 0, 0, 0
+
+
+// Catch (val, exp, nextlvl, totalexp)
+
+100.0, 0, 0, 0
+
+
+// Accel (val, exp, nextlvl, totalexp)
+
+100.0, 0, 0, 0
+
+
+// Speed (val, exp, nextlvl, totalexp)
+
+100.0, 0, 0, 0
+
+
+// BreakTak (val, exp, nextlvl, totalexp)
+
+100.0, 0, 0, 0
+
+
+// Tackle (val, exp, nextlvl, totalexp)
+
+100.0, 0, 0, 0
+
+
+// Block (val, exp, nextlvl, totalexp)
+
+100.0, 0, 0, 0
+
+
+// BreakBlock (val, exp, nextlvl, totalexp)
+
+100.0, 0, 0, 0
+
+
+// KickPow (val, exp, nextlvl, totalexp)
+
+100.0, 0, 0, 0
+
+
+// KickAcc (val, exp, nextlvl, totalexp)
+
+100.0, 0, 0, 0

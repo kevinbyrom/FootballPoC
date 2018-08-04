@@ -1,0 +1,349 @@
+// ACTION_END				= -1;
+// ACTION_STAND				= 0;
+// ACTION_STANCE			= 1;
+// ACTION_RUN				= 2;
+// ACTION_RUN_TOSS			= 3;
+// ACTION_RUNTO				= 4;
+// ACTION_RUNTO_ABSOLUTE		= 5;
+// ACTION_RUNTO_BALL_HOLDER		= 6;
+// ACTION_FACE				= 7;
+// ACTION_BLOCK				= 8;
+
+// ACTION_HANDOFF			= 20;
+// ACTION_FAKE_HANDOFF			= 21;
+// ACTION_TOSS				= 22;
+// ACTION_FAKE_TOSS			= 23;
+// ACTION_GET_HANDOFF			= 24;
+// ACTION_GET_FAKE_HANDOFF		= 25;
+
+// ACTION_SPIKE				= 40;
+// ACTION_KNEEL				= 41;
+
+// ACTION_SNAP				= 60;
+// ACTION_PLACEHOLD			= 61;
+// ACTION_KICK				= 62;
+// ACTION_PUNT				= 63;
+// ACTION_START_POWER			= 64;
+// ACTION_END_POWER			= 65;
+// ACTION_START_AIM			= 66;
+// ACTION_END_AIM			= 67;
+
+// ACTION_WAIT_FOR_SNAP_QB		= 80; 
+// ACTION_WAIT_FOR_SNAP_P		= 81;
+// ACTION_WAIT_FOR_SNAP_PH		= 82;
+
+// ACTION_CATCH_PUNT			= 100;
+// ACTION_CATCH_BALL			= 101;
+// ACTION_BLOCK_FOR_BALL_HOLDER		= 102;
+// ACTION_TACKLE_BALL_HOLDER		= 103;
+// ACTION_RECOVER_FUMBLE		= 104;
+
+// ACTION_TARGET_PASSER			= 120;
+// ACTION_TARGET_RUSHER			= 121;
+// ACTION_TARGET_KICKER			= 122;
+// ACTION_TARGET_PUNTER			= 123;
+// ACTION_TARGET_PLACEHOLDER		= 124;
+
+// ACTION_FIND_RECEIVER			= 200;
+// ACTION_FIND_CLOSEST_RECEIVER		= 201;
+// ACTION_LINEUP_TO_RECEIVER		= 202;
+// ACTION_WAIT_FOR_RECEIVER		= 203;
+// ACTION_WAIT_FOR_ANY_RECEIVER		= 204;
+// ACTION_SAFETY_WAIT_HIGH		= 205;
+// ACTION_SAFETY_WAIT_LOW		= 206;
+// ACTION_COVER_RECEIVER		= 207;
+
+// ACTION_HIDE_BALL_HOLDER		= 300;
+// ACTION_REVEAL_BALL_HOLDER		= 301;
+
+// ACTION_USER_CONTROL			= 320;
+// ACTION_DELAY				= 321;
+
+
+// Play Name
+
+Off_Test
+
+
+//GRAPHIC FILE
+
+Off_Test
+
+
+// ***********PLAYER 1******************
+
+// PLAYER TYPE (Passer, Receiver, IsDefReceiver, Blocker, Rusher, Kicker, Punter, Placeholder, HasBall)
+1,0,0,0,0,0,0,0,0
+
+//NUM PRE HIKE
+1
+
+//PRE HIKE (type, time, params[3])
+
+0 , 0 , 0.0 , 0.0 , 0.0
+
+
+
+//NUM POST HIKE
+2
+
+
+//POST HIKE (type, time, params[3])
+80, -1, 0.0 , 0.0 , 0.0
+320, -1, 0.0 , 0.0 , 0.0
+
+
+
+
+// ***********PLAYER 2******************
+
+// PLAYER TYPE (Passer, Receiver, IsDefReceiver, Blocker, Rusher, Kicker, Punter, Placeholder, HasBall)
+0,1,1,0,0,0,0,1,0
+
+//NUM PRE HIKE
+1
+
+//PRE HIKE (type, time, params[3])
+
+0 , -1 , 0.0 , 0.0 , 0.0
+
+
+//NUM POST HIKE
+3
+
+//POST HIKE (type, time, params[3])
+
+2 , 30 , 1.0 , 0.0 , 0.0
+2 , 10 , 0.0 , 1.0 , 0.0
+2 , -1 , 1.0 , 0.0 , 0.0
+
+
+
+// ***********PLAYER 3******************
+
+// PLAYER TYPE (Passer, Receiver, IsDefReceiver, Blocker, Rusher, Kicker, Punter, Placeholder, HasBall)
+0,1,0,0,0,0,0,0,0
+
+//NUM PRE HIKE
+3
+
+//PRE HIKE (type, time, params[3])
+
+2 , 10 , 0.0 , -1.0 , 0.0
+0 , -1 , 0.0 , 0.0 , 0.0
+0 , 0 , 0.0 , 0.0 , 0.0
+
+
+//NUM POST HIKE
+3
+
+//POST HIKE (type, time, params[3])
+
+2 , -1 , 1.0 , 0.0 , 0.0
+0 , 0 , 0.0 , 0.0 , 0.0
+0 , 0 , 0.0 , 0.0 , 0.0
+
+
+
+// ***********PLAYER 4******************
+
+// PLAYER TYPE (Passer, Receiver, IsDefReceiver, Blocker, Rusher, Kicker, Punter, Placeholder, HasBall)
+0,1,0,0,0,0,0,0,0
+
+//NUM PRE HIKE
+3
+
+//PRE HIKE (type, time, params[3])
+
+0 , 0 , 0.0 , 0.0 , 0.0
+0 , 0 , 0.0 , 0.0 , 0.0
+0 , 0 , 0.0 , 0.0 , 0.0
+
+
+//NUM POST HIKE
+1
+
+//POST HIKE (type, time, params[3])
+
+0 , 0 , 0.0 , 0.0 , 0.0
+
+
+
+// ***********PLAYER 5******************
+
+// PLAYER TYPE (Passer, Receiver, IsDefReceiver, Blocker, Rusher, Kicker, Punter, Placeholder, HasBall)
+0,0,0,0,0,1,1,0,0
+
+//NUM PRE HIKE
+3
+
+//PRE HIKE (type, time, params[3])
+
+0 , 0 , 0.0 , 0.0 , 0.0
+0 , 0 , 0.0 , 0.0 , 0.0
+0 , 0 , 0.0 , 0.0 , 0.0
+
+
+//NUM POST HIKE
+3
+
+//POST HIKE (type, time, params[3])
+
+0 , 0 , 0.0 , 0.0 , 0.0
+0 , 0 , 0.0 , 0.0 , 0.0
+0 , 0 , 0.0 , 0.0 , 0.0
+
+
+
+// ***********PLAYER 6******************
+
+// PLAYER TYPE (Passer, Receiver, IsDefReceiver, Blocker, Rusher, Kicker, Punter, Placeholder, HasBall)
+0,0,0,0,1,0,0,0,0
+
+//NUM PRE HIKE
+3
+
+//PRE HIKE (type, time, params[3])
+
+0 , 0 , 0.0 , 0.0 , 0.0
+0 , 0 , 0.0 , 0.0 , 0.0
+0 , 0 , 0.0 , 0.0 , 0.0
+
+
+//NUM POST HIKE
+4
+
+//POST HIKE (type, time, params[3])
+
+//28 , 1 , 0.0 , 0.0 , 0.0
+0 , -1 , 0.0 , 1.0 , 0.0
+0 , -1 , -120.0 , 0.0 , 0.0
+0 , -1 , -60.0 , 60.0 , 0.0
+0 , -1 , 0.0 , 0.0 , 0.0
+
+
+
+// ***********PLAYER 7******************
+
+// PLAYER TYPE (Passer, Receiver, IsDefReceiver, Blocker, Rusher, Kicker, Punter, Placeholder, HasBall)
+0,0,0,0,0,1,1,0,0
+
+//NUM PRE HIKE
+3
+
+//PRE HIKE (type, time, params[3])
+
+0 , 0 , 0.0 , 0.0 , 0.0
+0 , 0 , 0.0 , 0.0 , 0.0
+0 , 0 , 0.0 , 0.0 , 0.0
+
+
+//NUM POST HIKE
+3
+
+//POST HIKE (type, time, params[3])
+
+0 , 0 , 0.0 , 0.0 , 0.0
+0 , 0 , 0.0 , 0.0 , 0.0
+0 , 0 , 0.0 , 0.0 , 0.0
+
+
+
+// ***********PLAYER 8******************
+
+// PLAYER TYPE (Passer, Receiver, IsDefReceiver, Blocker, Rusher, Kicker, Punter, Placeholder, HasBall)
+0,0,0,0,0,1,1,0,0
+
+//NUM PRE HIKE
+3
+
+//PRE HIKE (type, time, params[3])
+
+0 , 0 , 0.0 , 0.0 , 0.0
+0 , 0 , 0.0 , 0.0 , 0.0
+0 , 0 , 0.0 , 0.0 , 0.0
+
+
+//NUM POST HIKE
+3
+
+//POST HIKE (type, time, params[3])
+
+0 , 0 , 0.0 , 0.0 , 0.0
+0 , 0 , 0.0 , 0.0 , 0.0
+0 , 0 , 0.0 , 0.0 , 0.0
+
+
+
+// ***********PLAYER 9******************
+
+// PLAYER TYPE (Passer, Receiver, IsDefReceiver, Blocker, Rusher, Kicker, Punter, Placeholder, HasBall)
+0,0,0,0,0,1,1,0,1
+
+//NUM PRE HIKE
+1
+
+//PRE HIKE (type, time, params[3])
+
+1 , -1 , 0.0 , 0.0 , 0.0
+
+
+//NUM POST HIKE
+2
+
+//POST HIKE (type, time, params[3])
+
+120 , -1 , 0.0 , 0.0 , 0.0
+60 , -1 , 0.0 , 0.0 , 0.0
+
+
+
+
+// ***********PLAYER 10******************
+
+// PLAYER TYPE (Passer, Receiver, IsDefReceiver, Blocker, Rusher, Kicker, Punter, Placeholder, HasBall)
+0,0,0,0,0,1,1,0,0
+
+//NUM PRE HIKE
+3
+
+//PRE HIKE (type, time, params[3])
+
+0 , 0 , 0.0 , 0.0 , 0.0
+0 , 0 , 0.0 , 0.0 , 0.0
+0 , 0 , 0.0 , 0.0 , 0.0
+
+
+//NUM POST HIKE
+3
+
+//POST HIKE (type, time, params[3])
+
+0 , 0 , 0.0 , 0.0 , 0.0
+0 , 0 , 0.0 , 0.0 , 0.0
+0 , 0 , 0.0 , 0.0 , 0.0
+
+
+
+// ***********PLAYER 11******************
+
+// PLAYER TYPE (Passer, Receiver, IsDefReceiver, Blocker, Rusher, Kicker, Punter, Placeholder, HasBall)
+0,0,0,0,0,1,1,0,0
+
+//NUM PRE HIKE
+1
+
+//PRE HIKE (type, time, params[3])
+
+1 , 0 , 0.0 , 0.0 , 0.0
+
+
+
+//NUM POST HIKE
+3
+
+//POST HIKE (type, time, params[3])
+
+0 , 0 , 0.0 , 0.0 , 0.0
+0 , 0 , 0.0 , 0.0 , 0.0
+0 , 0 , 0.0 , 0.0 , 0.0

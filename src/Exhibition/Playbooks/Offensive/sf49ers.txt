@@ -1,0 +1,56 @@
+//Number of formations
+
+4
+
+
+// Formation 1
+off special teams
+
+
+// Number of plays in Formation 1
+1
+
+
+// Formation 1 plays
+Field Goal                                                                                                                                                                                                                                  
+
+
+
+
+// Formation 2
+singleback
+
+
+// Number of plays in Formation 2
+1
+
+
+// Formation 2 plays
+emptyplay
+
+
+
+
+// Formation 3
+pro form
+
+
+// Number of plays in Formation 3
+1
+
+
+// Formation 3 plays
+emptyplay
+
+
+
+// Formation 4
+I Form
+
+
+// Number of plays in Formation 4
+1
+
+
+// Formation 4 plays
+I Form Go

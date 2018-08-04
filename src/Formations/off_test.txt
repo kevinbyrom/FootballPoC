@@ -1,0 +1,136 @@
+// QB
+// WR
+// TE
+// HB
+// FB
+// OL
+// C
+// CB
+// SS
+// FS
+// LB
+// DL
+// K
+// P
+// KR
+// PR
+// PH
+
+
+// Formation Name
+
+off_test
+
+
+// Graphic File
+
+off_test
+
+
+//******** Player 1 **********
+
+//Type
+0
+
+//Start Offsets (wx, wy)
+120.0, 0.0
+
+
+
+//******** Player 2 **********
+
+//Type
+1
+
+//Start Offsets (wx, wy)
+60.0, 0.0
+
+
+
+//******** Player 3 **********
+
+//Type
+1
+
+//Start Offsets (wx, wy)
+20.0, -110.0
+
+
+
+//******** Player 4 **********
+
+//Type
+1
+
+//Start Offsets (wx, wy)
+0.0, 140.0
+
+
+
+//******** Player 5 **********
+
+//Type
+2
+
+//Start Offsets (wx, wy)
+20.0, 80.0
+
+
+
+//******** Player 6 **********
+
+//Type
+3
+
+//Start Offsets (wx, wy)
+120.0, -60.0
+
+
+
+//******** Player 7 **********
+
+//Type
+5
+
+//Start Offsets (wx, wy)
+0.0, -60.0
+
+
+
+//******** Player 8 **********
+
+//Type
+5
+
+//Start Offsets (wx, wy)
+0.0, -30.0
+
+
+
+//******** Player 9 **********
+
+//Type
+6
+
+//Start Offsets (wx, wy)
+0.0, 0.0
+
+
+
+//******** Player 10 **********
+
+//Type
+5
+
+//Start Offsets (wx, wy)
+0.0, 30.0
+
+
+
+//******** Player 11 **********
+
+//Type
+5
+
+//Start Offsets (wx, wy)
+0.0, 60.0

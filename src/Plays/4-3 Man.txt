@@ -1,0 +1,265 @@
+// Play Name
+
+4-3 Man
+
+
+//GRAPHIC FILE
+
+Off_Test
+
+
+// ***********PLAYER 1******************
+
+// PLAYER TYPE (Passer, Receiver, IsDefReceiver, Blocker, Rusher, Kicker, Punter, Placeholder, HasBall)
+0,0,0,0,0,0,0,0,0
+
+//NUM PRE HIKE
+1
+
+//PRE HIKE (type, time, params[3])
+
+0 , 0 , 0.0 , 0.0 , 0.0
+
+
+
+//NUM POST HIKE
+2
+
+
+//POST HIKE (type, time, params[3])
+120, 0, 0.0 , 0.0 , 0.0
+103, 0, 0.0 , 0.0 , 0.0
+
+
+
+
+// ***********PLAYER 2******************
+
+// PLAYER TYPE (Passer, Receiver, IsDefReceiver, Blocker, Rusher, Kicker, Punter, Placeholder, HasBall)
+0,1,1,0,0,0,0,1,0
+
+//NUM PRE HIKE
+1
+
+//PRE HIKE (type, time, params[3])
+
+0 , -1 , 0.0 , 0.0 , 0.0
+
+
+//NUM POST HIKE
+2
+
+
+//POST HIKE (type, time, params[3])
+120, 0, 0.0 , 0.0 , 0.0
+103, 0, 0.0 , 0.0 , 0.0
+
+
+
+
+// ***********PLAYER 3******************
+
+// PLAYER TYPE (Passer, Receiver, IsDefReceiver, Blocker, Rusher, Kicker, Punter, Placeholder, HasBall)
+0,1,0,0,0,0,0,0,0
+
+//NUM PRE HIKE
+1
+
+//PRE HIKE (type, time, params[3])
+
+0 , -1 , 0.0 , 0.0 , 0.0
+
+
+//NUM POST HIKE
+2
+
+
+//POST HIKE (type, time, params[3])
+120, 0, 0.0 , 0.0 , 0.0
+103, 0, 0.0 , 0.0 , 0.0
+
+
+
+// ***********PLAYER 4******************
+
+// PLAYER TYPE (Passer, Receiver, IsDefReceiver, Blocker, Rusher, Kicker, Punter, Placeholder, HasBall)
+0,1,0,0,0,0,0,0,0
+
+//NUM PRE HIKE
+1
+
+//PRE HIKE (type, time, params[3])
+
+0 , -1 , 0.0 , 0.0 , 0.0
+
+
+//NUM POST HIKE
+2
+
+
+//POST HIKE (type, time, params[3])
+120, 0, 0.0 , 0.0 , 0.0
+103, 0, 0.0 , 0.0 , 0.0
+
+
+
+// ***********PLAYER 5******************
+
+// PLAYER TYPE (Passer, Receiver, IsDefReceiver, Blocker, Rusher, Kicker, Punter, Placeholder, HasBall)
+0,0,0,0,0,1,1,0,0
+
+//NUM PRE HIKE
+1
+
+//PRE HIKE (type, time, params[3])
+
+0 , -1 , 0.0 , 0.0 , 0.0
+
+//NUM POST HIKE
+2
+
+//POST HIKE (type, time, params[3])
+
+2 , 60 , 1.0 , -1.0 , 0.0
+103, -1, 0.0, 0.0, 0.0
+
+
+
+// ***********PLAYER 6******************
+
+// PLAYER TYPE (Passer, Receiver, IsDefReceiver, Blocker, Rusher, Kicker, Punter, Placeholder, HasBall)
+0,0,0,0,1,0,0,0,0
+
+//NUM PRE HIKE
+1
+
+//PRE HIKE (type, time, params[3])
+
+0 , -1 , 0.0 , 0.0 , 0.0
+
+
+//NUM POST HIKE
+2
+
+//POST HIKE (type, time, params[3])
+
+120 , 0 , 0.0 , 0.0 , 0.0
+209 , -1 , 0.0 , 1.0 , 0.0
+
+
+
+// ***********PLAYER 7******************
+
+// PLAYER TYPE (Passer, Receiver, IsDefReceiver, Blocker, Rusher, Kicker, Punter, Placeholder, HasBall)
+0,0,0,0,0,1,1,0,0
+
+//NUM PRE HIKE
+1
+
+//PRE HIKE (type, time, params[3])
+
+0 , -1 , 0.0 , 0.0 , 0.0
+
+
+//NUM POST HIKE
+1
+
+//POST HIKE (type, time, params[3])
+
+0 , -1 , 0.0 , 0.0 , 0.0
+
+
+
+// ***********PLAYER 8******************
+
+// PLAYER TYPE (Passer, Receiver, IsDefReceiver, Blocker, Rusher, Kicker, Punter, Placeholder, HasBall)
+0,0,0,0,0,1,1,0,0
+
+//NUM PRE HIKE
+1
+
+//PRE HIKE (type, time, params[3])
+
+0 , -1 , 0.0 , 0.0 , 0.0
+
+
+//NUM POST HIKE
+2
+
+//POST HIKE (type, time, params[3])
+
+202 , -1 , 1.0 , -1.0 , 0.0
+208 , -1 , 30.0 , 0.0 , 0.0
+
+
+
+// ***********PLAYER 9******************
+
+// PLAYER TYPE (Passer, Receiver, IsDefReceiver, Blocker, Rusher, Kicker, Punter, Placeholder, HasBall)
+0,0,0,0,0,1,1,0,1
+
+//NUM PRE HIKE
+1
+
+//PRE HIKE (type, time, params[3])
+
+0 , -1 , 0.0 , 0.0 , 0.0
+
+
+//NUM POST HIKE
+2
+
+//POST HIKE (type, time, params[3])
+
+202 , -1 , 1.0 , 1.0 , 0.0
+208 , -1 , 30.0 , 0.0 , 0.0
+
+
+
+
+// ***********PLAYER 10******************
+
+// PLAYER TYPE (Passer, Receiver, IsDefReceiver, Blocker, Rusher, Kicker, Punter, Placeholder, HasBall)
+0,0,0,0,0,1,1,0,0
+
+//NUM PRE HIKE
+1
+
+//PRE HIKE (type, time, params[3])
+
+0 , -1 , 0.0 , 0.0 , 0.0
+
+
+//NUM POST HIKE
+3
+
+//POST HIKE (type, time, params[3])
+
+2 , 60 , -1.0 , 0.0, 0.0
+206 , -1 , -200.0 , 9999.0 , 2.0
+208 , -1 , 30.0 , 30.0, 0.0
+
+
+
+// ***********PLAYER 11******************
+
+// PLAYER TYPE (Passer, Receiver, IsDefReceiver, Blocker, Rusher, Kicker, Punter, Placeholder, HasBall)
+0,0,0,0,0,1,1,0,0
+
+//NUM PRE HIKE
+1
+
+//PRE HIKE (type, time, params[3])
+
+0 , -1 , 0.0 , 0.0 , 0.0
+
+
+
+//NUM POST HIKE
+3
+
+//POST HIKE (type, time, params[3])
+
+2, 60, -1.0, 0.0, 0.0
+207 , -1 , -200.0 , 9999.0 , 2.0
+208 , -1 , 30.0 , 30.0, 0.0

@@ -1,0 +1,44 @@
+THINGS TO DO:
+
+-Figure out where to put ChangeReceiver button logic (stage or playerobj)
+
+-Either add VPAD.OnClicks or add a delay to the button down due to the fact that Change Receiver is too fast
+
+-Add DEFENSE logic
+	-Find target
+	-Lineup to target
+	-Spy target
+	-Man under
+	-Man
+	-Man over
+	-Zone
+
+-Add handoff & fakehandoff state
+	-Send messages
+	
+-Implement FONT system which loads font spacing from a text file (could be part of SPRITE)
+
+-Allow players to grapple a grappled player if the player is a ball holder, if so, ball holder needs to keep track of how many grapplers there are
+
+-Add LEAP logic to catching
+
+-Add stamina to PLAYER_INFO
+
+-Change attributes to float?
+
+-Fine tune throwing
+	-Do not throw past endzone if player is standing at edge
+
+-Fix field map gfx
+
+-Code InfoBar drawing
+	-OFFENSE info
+	-DEFENSE info
+	-Minimap
+
+-Enable a memory system which allows the defense to store the plays used by 
+the offense.  So if a play is first used, it is given a certain amount of memory
+points.  When it is used again, the memory points increase a certain amount. 
+When the play is not used, the memory points decrease by a certain amount.
+The memory points will be used to determine how much awareness bonus the defense
+receives.

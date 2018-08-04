@@ -1,0 +1,142 @@
+// QB	= 0
+// WR	= 1
+// TE	= 2
+// HB	= 3
+// FB	= 4
+// OL	= 5
+// C	= 6
+// CB 	= 7
+// SS	= 8
+// FS	= 9
+// LB	= 10
+// DL	= 11
+// K	= 12
+// P	= 13
+// KR	= 14
+// PR	= 15
+// PH	= 16
+
+
+// Formation Name
+
+3-4
+
+
+// Graphic File
+
+3-4
+
+
+// IsSpecialTeams / IsKickoff
+
+0
+0
+
+
+//******** Player 1 **********
+
+//Type
+11
+
+//Start Offsets (wx, wy)
+0.0, -30.0
+
+
+
+//******** Player 2 **********
+
+//Type
+11
+
+//Start Offsets (wx, wy)
+0.0, 0.0
+
+
+
+//******** Player 3 **********
+
+//Type
+11
+
+//Start Offsets (wx, wy)
+0.0, 30.0
+
+
+
+//******** Player 4 **********
+
+//Type
+10
+
+//Start Offsets (wx, wy)
+30.0, -50.0
+
+
+
+//******** Player 5 **********
+
+//Type
+10
+
+//Start Offsets (wx, wy)
+50.0, -20.0
+
+
+
+//******** Player 6 **********
+
+//Type
+10
+
+//Start Offsets (wx, wy)
+50.0, 20.0
+
+
+
+//******** Player 7 **********
+
+//Type
+10
+
+//Start Offsets (wx, wy)
+30.0, 50.0
+
+
+
+//******** Player 8 **********
+
+//Type
+7
+
+//Start Offsets (wx, wy)
+20.0, -140.0
+
+
+
+//******** Player 9 **********
+
+//Type
+7
+
+//Start Offsets (wx, wy)
+20.0, 140.0
+
+
+
+//******** Player 10 **********
+
+//Type
+9
+
+//Start Offsets (wx, wy)
+100.0, -80.0
+
+
+
+//******** Player 11 **********
+
+//Type
+8
+
+//Start Offsets (wx, wy)
+100.0, 80.0
